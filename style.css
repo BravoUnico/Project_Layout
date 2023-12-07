@@ -30,10 +30,10 @@ body {
 .flex-box a {
     grid-area: nav;
     display: flex;
+    float: left;
     background-color: antiquewhite;
-    overflow: hidden;
     text-align: center;
-    padding: 14px 16px; 
+    padding: 14px; 
     text-decoration: none;
     font-size: 17px;
    
@@ -54,7 +54,11 @@ main {
    background-color: #FE0000; 
 }
 
-footer {
+footer, i{
     grid-area: footer;
-    background-color: #1A5D1A;
+    background-color: #ddd;
+    flex-flow: row-reverse;
+    font-size: 50px;
+    
+
 }
