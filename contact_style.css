@@ -1,0 +1,16 @@
+body {
+    background-color: #A78295;
+}
+
+
+label {
+    display: block;
+    font: 
+    1rem 'fira Sans',
+    sans-serif;
+}
+
+input,
+label {
+    margin: 0.4rem 0;
+}
