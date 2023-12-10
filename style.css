@@ -15,22 +15,51 @@ body {
     'header-grid-2 header-grid-2 header-grid-2 header-grid-2 header-grid-2 header-grid-2'
     'menu-grid-3 main-grid-4 main-grid-4 main-grid-4 main-grid-4 main-grid-4'
     'footer-grid-5 footer-grid-5 footer-grid-5 footer-grid-5 footer-grid-5 footer-grid-5';
+    
 }
 /* Styling the header */
 .header-grid-2 {
     grid-area: header-grid-2;
     background-color: #f1f1f1;
-    padding: 30px;
+    height: 300px;
+    
+}
+/* the side menu */
+.menu-grid-3{
+    grid-area:  menu-grid-3;
+    background-color: #d12a2a;
+    height: 100%;
+    width: 200px;
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
+    position: fixed;
+    overflow: auto;
 }
 
-.menu-grid-3 {
-    grid-template-columns: menu-grid-3;
-    background-color: #aaa;
-    height: 500px;
+/* sidebar link */
+.menu-grid-3  div {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 10px;
+    color: #c055c4;
+}
+a:link{text-decoration: none;}
+
+.main-grid-4 {
+    grid-area: main-grid-4;
     text-align: center;
-    list-style-type: none;
+   
+
+}
+
+.footer-grid-5{
+    grid-area: footer-grid-5;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+    font-size: 20px;
 
 }
 
