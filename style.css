@@ -37,14 +37,25 @@ body {
 }
 
 /* sidebar link */
-.menu-grid-3  div {
+.menu-grid-3  a {
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    gap: 10px;
-    color: #c055c4;
+    gap: 20px;
+    padding: 16px;
+    color: whitesmoke;
 }
 a:link{text-decoration: none;}
+
+.menu-grid-3 a.active {
+    background-color: #04aa6d;
+    color: aliceblue;
+}
+.menu-grid-3 a:hover:not(.active) {
+    background-color: #555;
+    color: aliceblue;
+}
+
 
 .main-grid-4 {
     grid-area: main-grid-4;
