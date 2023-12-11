@@ -14,3 +14,12 @@ input,
 label {
     margin: 0.4rem 0;
 }
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 20px;
+    cursor: pointer;
+  }
