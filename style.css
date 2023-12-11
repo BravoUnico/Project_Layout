@@ -13,7 +13,7 @@ body {
 .container-grid-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 200px 1fr 50px;
+    grid-template-rows: 200px 1fr 60px;
     grid-template-areas: 
     'header-grid-2 header-grid-2 header-grid-2 header-grid-2 header-grid-2 header-grid-2'
     'menu-grid-3 main-grid-4 main-grid-4 main-grid-4 main-grid-4 main-grid-4'
@@ -30,7 +30,7 @@ body {
     grid-area: header-grid-2;
     background-color: #cf3131;
     background-image: url("./img/damian-zaleski-RYyr-k3Ysqg-unsplash.jpg");
-
+    overflow: hidden;
     
 }
 
@@ -79,9 +79,7 @@ h1 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
-i {
 
-}
 
 .footer-grid-5  {
     grid-area: footer-grid-5;
